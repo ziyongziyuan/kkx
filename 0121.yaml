@@ -5,27 +5,411 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 油管晓飞呀分享, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: FR_72, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_41, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: FR_77, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: FR_61, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: FR_64, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CA_416, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR_76, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: FR_74, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_462, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_163, server: 134.195.196.193, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_97, server: 172.99.190.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CA_337, server: 134.195.196.144, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_156, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_120, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_56, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_164, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: FR_78, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: FR_60, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CA_145, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR_67, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: FR 🇫🇷 Paris (3), server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1, udp: true}
+  - {name: IL 🇮🇱 Haifa, server: 83.229.73.60, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: MK 🇲🇰 Skopje, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: Relay_ | 8.11Mb, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_ | 8.34Mb, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Relay_ | 9.68Mb, server: 117.28.243.220, port: 8036, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: "| 5.72Mb", server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: CN_279, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
+  - {name: "| 5.56Mb", server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: "| 0.58Mb", server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "| 2.83Mb", server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 6.20Mb", server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|18.02Mb", server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 0.77Mb", server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "| 5.64Mb", server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "| 3.34Mb", server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "| 0.58Mb 2", server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 2.89Mb", server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|33.80Mb", server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "| 0.43Mb", server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "| 1.36Mb", server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "| 3.92Mb", server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "| 3.68Mb", server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Pool_ |10.09Mb, server: 118.107.244.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|10.79Mb", server: 118.107.244.110, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Pool_ |11.18Mb, server: 118.107.244.112, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_ |10.57Mb, server: 118.107.244.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_ |11.07Mb, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|10.56Mb", server: 118.107.244.109, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Pool_ |10.96Mb, server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "| 7.80Mb", server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: "| 1.35Mb", server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 1.52Mb", server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "| 9.18Mb", server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "| 5.62Mb", server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "| 0.19Mb", server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 0.20Mb", server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 1.22Mb", server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "| 2.57Mb", server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "| 4.51Mb", server: 172.99.190.149, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "| 2.25Mb", server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 0.25Mb", server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "| 2.08Mb", server: 172.99.190.205, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "| 1.02Mb", server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 2.86Mb", server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "| 2.82Mb", server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 0.14Mb", server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "| 7.56Mb", server: 172.99.190.205, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "| 1.74Mb", server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|56.06Mb", server: 209.141.35.147, port: 48919, type: trojan, password: 52911320-db53-40ff-917a-e5de797c28e7, skip-cert-verify: true, udp: true}
+  - {name: "| 2.70Mb", server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "| 0.98Mb", server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "| 2.79Mb", server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "| 1.80Mb", server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "| 3.43Mb", server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "| 1.22Mb 2", server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 2.42Mb", server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 2.94Mb", server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "| 4.14Mb", server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "| 9.22Mb", server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 2.09Mb", server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "| 6.46Mb", server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "| 0.16Mb", server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 1.95Mb", server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "| 2.65Mb", server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "| 3.30Mb", server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "| 4.00Mb", server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "|58.85Mb", server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 1.67Mb", server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 3.39Mb", server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "| 1.89Mb", server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "| 1.86Mb", server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "| 8.74Mb", server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "| 3.56Mb", server: 134.195.196.193, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "| 1.29Mb", server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "| 8.09Mb", server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "| 6.82Mb", server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 油管晓飞呀分享
+      - FR_72
+      - FR_41
+      - FR_77
+      - FR_61
+      - FR_64
+      - CA_416
+      - FR_76
+      - FR_74
+      - CA_462
+      - CA_163
+      - US_97
+      - CA_337
+      - US_156
+      - CA_120
+      - FR_56
+      - CA_164
+      - FR_78
+      - FR_60
+      - CA_145
+      - FR_67
+      - FR 🇫🇷 Paris (3)
+      - IL 🇮🇱 Haifa
+      - MK 🇲🇰 Skopje
+      - Relay_ | 8.11Mb
+      - Relay_ | 8.34Mb
+      - Relay_ | 9.68Mb
+      - "| 5.72Mb"
+      - CN_279
+      - "| 5.56Mb"
+      - "| 0.58Mb"
+      - "| 2.83Mb"
+      - "| 6.20Mb"
+      - "|18.02Mb"
+      - "| 0.77Mb"
+      - "| 5.64Mb"
+      - "| 3.34Mb"
+      - "| 0.58Mb 2"
+      - "| 2.89Mb"
+      - "|33.80Mb"
+      - "| 0.43Mb"
+      - "| 1.36Mb"
+      - "| 3.92Mb"
+      - "| 3.68Mb"
+      - Pool_ |10.09Mb
+      - "|10.79Mb"
+      - Pool_ |11.18Mb
+      - Pool_ |10.57Mb
+      - Pool_ |11.07Mb
+      - "|10.56Mb"
+      - Pool_ |10.96Mb
+      - "| 7.80Mb"
+      - "| 1.35Mb"
+      - "| 1.52Mb"
+      - "| 9.18Mb"
+      - "| 5.62Mb"
+      - "| 0.19Mb"
+      - "| 0.20Mb"
+      - "| 1.22Mb"
+      - "| 2.57Mb"
+      - "| 4.51Mb"
+      - "| 2.25Mb"
+      - "| 0.25Mb"
+      - "| 2.08Mb"
+      - "| 1.02Mb"
+      - "| 2.86Mb"
+      - "| 2.82Mb"
+      - "| 0.14Mb"
+      - "| 7.56Mb"
+      - "| 1.74Mb"
+      - "|56.06Mb"
+      - "| 2.70Mb"
+      - "| 0.98Mb"
+      - "| 2.79Mb"
+      - "| 1.80Mb"
+      - "| 3.43Mb"
+      - "| 1.22Mb 2"
+      - "| 2.42Mb"
+      - "| 2.94Mb"
+      - "| 4.14Mb"
+      - "| 9.22Mb"
+      - "| 2.09Mb"
+      - "| 6.46Mb"
+      - "| 0.16Mb"
+      - "| 1.95Mb"
+      - "| 2.65Mb"
+      - "| 3.30Mb"
+      - "| 4.00Mb"
+      - "|58.85Mb"
+      - "| 1.67Mb"
+      - "| 3.39Mb"
+      - "| 1.89Mb"
+      - "| 1.86Mb"
+      - "| 8.74Mb"
+      - "| 3.56Mb"
+      - "| 1.29Mb"
+      - "| 8.09Mb"
+      - "| 6.82Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 油管晓飞呀分享
+      - FR_72
+      - FR_41
+      - FR_77
+      - FR_61
+      - FR_64
+      - CA_416
+      - FR_76
+      - FR_74
+      - CA_462
+      - CA_163
+      - US_97
+      - CA_337
+      - US_156
+      - CA_120
+      - FR_56
+      - CA_164
+      - FR_78
+      - FR_60
+      - CA_145
+      - FR_67
+      - FR 🇫🇷 Paris (3)
+      - IL 🇮🇱 Haifa
+      - MK 🇲🇰 Skopje
+      - Relay_ | 8.11Mb
+      - Relay_ | 8.34Mb
+      - Relay_ | 9.68Mb
+      - "| 5.72Mb"
+      - CN_279
+      - "| 5.56Mb"
+      - "| 0.58Mb"
+      - "| 2.83Mb"
+      - "| 6.20Mb"
+      - "|18.02Mb"
+      - "| 0.77Mb"
+      - "| 5.64Mb"
+      - "| 3.34Mb"
+      - "| 0.58Mb 2"
+      - "| 2.89Mb"
+      - "|33.80Mb"
+      - "| 0.43Mb"
+      - "| 1.36Mb"
+      - "| 3.92Mb"
+      - "| 3.68Mb"
+      - Pool_ |10.09Mb
+      - "|10.79Mb"
+      - Pool_ |11.18Mb
+      - Pool_ |10.57Mb
+      - Pool_ |11.07Mb
+      - "|10.56Mb"
+      - Pool_ |10.96Mb
+      - "| 7.80Mb"
+      - "| 1.35Mb"
+      - "| 1.52Mb"
+      - "| 9.18Mb"
+      - "| 5.62Mb"
+      - "| 0.19Mb"
+      - "| 0.20Mb"
+      - "| 1.22Mb"
+      - "| 2.57Mb"
+      - "| 4.51Mb"
+      - "| 2.25Mb"
+      - "| 0.25Mb"
+      - "| 2.08Mb"
+      - "| 1.02Mb"
+      - "| 2.86Mb"
+      - "| 2.82Mb"
+      - "| 0.14Mb"
+      - "| 7.56Mb"
+      - "| 1.74Mb"
+      - "|56.06Mb"
+      - "| 2.70Mb"
+      - "| 0.98Mb"
+      - "| 2.79Mb"
+      - "| 1.80Mb"
+      - "| 3.43Mb"
+      - "| 1.22Mb 2"
+      - "| 2.42Mb"
+      - "| 2.94Mb"
+      - "| 4.14Mb"
+      - "| 9.22Mb"
+      - "| 2.09Mb"
+      - "| 6.46Mb"
+      - "| 0.16Mb"
+      - "| 1.95Mb"
+      - "| 2.65Mb"
+      - "| 3.30Mb"
+      - "| 4.00Mb"
+      - "|58.85Mb"
+      - "| 1.67Mb"
+      - "| 3.39Mb"
+      - "| 1.89Mb"
+      - "| 1.86Mb"
+      - "| 8.74Mb"
+      - "| 3.56Mb"
+      - "| 1.29Mb"
+      - "| 8.09Mb"
+      - "| 6.82Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 油管晓飞呀分享
+      - FR_72
+      - FR_41
+      - FR_77
+      - FR_61
+      - FR_64
+      - CA_416
+      - FR_76
+      - FR_74
+      - CA_462
+      - CA_163
+      - US_97
+      - CA_337
+      - US_156
+      - CA_120
+      - FR_56
+      - CA_164
+      - FR_78
+      - FR_60
+      - CA_145
+      - FR_67
+      - FR 🇫🇷 Paris (3)
+      - IL 🇮🇱 Haifa
+      - MK 🇲🇰 Skopje
+      - Relay_ | 8.11Mb
+      - Relay_ | 8.34Mb
+      - Relay_ | 9.68Mb
+      - "| 5.72Mb"
+      - CN_279
+      - "| 5.56Mb"
+      - "| 0.58Mb"
+      - "| 2.83Mb"
+      - "| 6.20Mb"
+      - "|18.02Mb"
+      - "| 0.77Mb"
+      - "| 5.64Mb"
+      - "| 3.34Mb"
+      - "| 0.58Mb 2"
+      - "| 2.89Mb"
+      - "|33.80Mb"
+      - "| 0.43Mb"
+      - "| 1.36Mb"
+      - "| 3.92Mb"
+      - "| 3.68Mb"
+      - Pool_ |10.09Mb
+      - "|10.79Mb"
+      - Pool_ |11.18Mb
+      - Pool_ |10.57Mb
+      - Pool_ |11.07Mb
+      - "|10.56Mb"
+      - Pool_ |10.96Mb
+      - "| 7.80Mb"
+      - "| 1.35Mb"
+      - "| 1.52Mb"
+      - "| 9.18Mb"
+      - "| 5.62Mb"
+      - "| 0.19Mb"
+      - "| 0.20Mb"
+      - "| 1.22Mb"
+      - "| 2.57Mb"
+      - "| 4.51Mb"
+      - "| 2.25Mb"
+      - "| 0.25Mb"
+      - "| 2.08Mb"
+      - "| 1.02Mb"
+      - "| 2.86Mb"
+      - "| 2.82Mb"
+      - "| 0.14Mb"
+      - "| 7.56Mb"
+      - "| 1.74Mb"
+      - "|56.06Mb"
+      - "| 2.70Mb"
+      - "| 0.98Mb"
+      - "| 2.79Mb"
+      - "| 1.80Mb"
+      - "| 3.43Mb"
+      - "| 1.22Mb 2"
+      - "| 2.42Mb"
+      - "| 2.94Mb"
+      - "| 4.14Mb"
+      - "| 9.22Mb"
+      - "| 2.09Mb"
+      - "| 6.46Mb"
+      - "| 0.16Mb"
+      - "| 1.95Mb"
+      - "| 2.65Mb"
+      - "| 3.30Mb"
+      - "| 4.00Mb"
+      - "|58.85Mb"
+      - "| 1.67Mb"
+      - "| 3.39Mb"
+      - "| 1.89Mb"
+      - "| 1.86Mb"
+      - "| 8.74Mb"
+      - "| 3.56Mb"
+      - "| 1.29Mb"
+      - "| 8.09Mb"
+      - "| 6.82Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -44,7 +428,103 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 油管晓飞呀分享
+      - FR_72
+      - FR_41
+      - FR_77
+      - FR_61
+      - FR_64
+      - CA_416
+      - FR_76
+      - FR_74
+      - CA_462
+      - CA_163
+      - US_97
+      - CA_337
+      - US_156
+      - CA_120
+      - FR_56
+      - CA_164
+      - FR_78
+      - FR_60
+      - CA_145
+      - FR_67
+      - FR 🇫🇷 Paris (3)
+      - IL 🇮🇱 Haifa
+      - MK 🇲🇰 Skopje
+      - Relay_ | 8.11Mb
+      - Relay_ | 8.34Mb
+      - Relay_ | 9.68Mb
+      - "| 5.72Mb"
+      - CN_279
+      - "| 5.56Mb"
+      - "| 0.58Mb"
+      - "| 2.83Mb"
+      - "| 6.20Mb"
+      - "|18.02Mb"
+      - "| 0.77Mb"
+      - "| 5.64Mb"
+      - "| 3.34Mb"
+      - "| 0.58Mb 2"
+      - "| 2.89Mb"
+      - "|33.80Mb"
+      - "| 0.43Mb"
+      - "| 1.36Mb"
+      - "| 3.92Mb"
+      - "| 3.68Mb"
+      - Pool_ |10.09Mb
+      - "|10.79Mb"
+      - Pool_ |11.18Mb
+      - Pool_ |10.57Mb
+      - Pool_ |11.07Mb
+      - "|10.56Mb"
+      - Pool_ |10.96Mb
+      - "| 7.80Mb"
+      - "| 1.35Mb"
+      - "| 1.52Mb"
+      - "| 9.18Mb"
+      - "| 5.62Mb"
+      - "| 0.19Mb"
+      - "| 0.20Mb"
+      - "| 1.22Mb"
+      - "| 2.57Mb"
+      - "| 4.51Mb"
+      - "| 2.25Mb"
+      - "| 0.25Mb"
+      - "| 2.08Mb"
+      - "| 1.02Mb"
+      - "| 2.86Mb"
+      - "| 2.82Mb"
+      - "| 0.14Mb"
+      - "| 7.56Mb"
+      - "| 1.74Mb"
+      - "|56.06Mb"
+      - "| 2.70Mb"
+      - "| 0.98Mb"
+      - "| 2.79Mb"
+      - "| 1.80Mb"
+      - "| 3.43Mb"
+      - "| 1.22Mb 2"
+      - "| 2.42Mb"
+      - "| 2.94Mb"
+      - "| 4.14Mb"
+      - "| 9.22Mb"
+      - "| 2.09Mb"
+      - "| 6.46Mb"
+      - "| 0.16Mb"
+      - "| 1.95Mb"
+      - "| 2.65Mb"
+      - "| 3.30Mb"
+      - "| 4.00Mb"
+      - "|58.85Mb"
+      - "| 1.67Mb"
+      - "| 3.39Mb"
+      - "| 1.89Mb"
+      - "| 1.86Mb"
+      - "| 8.74Mb"
+      - "| 3.56Mb"
+      - "| 1.29Mb"
+      - "| 8.09Mb"
+      - "| 6.82Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -55,20 +535,308 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 油管晓飞呀分享
+      - FR_72
+      - FR_41
+      - FR_77
+      - FR_61
+      - FR_64
+      - CA_416
+      - FR_76
+      - FR_74
+      - CA_462
+      - CA_163
+      - US_97
+      - CA_337
+      - US_156
+      - CA_120
+      - FR_56
+      - CA_164
+      - FR_78
+      - FR_60
+      - CA_145
+      - FR_67
+      - FR 🇫🇷 Paris (3)
+      - IL 🇮🇱 Haifa
+      - MK 🇲🇰 Skopje
+      - Relay_ | 8.11Mb
+      - Relay_ | 8.34Mb
+      - Relay_ | 9.68Mb
+      - "| 5.72Mb"
+      - CN_279
+      - "| 5.56Mb"
+      - "| 0.58Mb"
+      - "| 2.83Mb"
+      - "| 6.20Mb"
+      - "|18.02Mb"
+      - "| 0.77Mb"
+      - "| 5.64Mb"
+      - "| 3.34Mb"
+      - "| 0.58Mb 2"
+      - "| 2.89Mb"
+      - "|33.80Mb"
+      - "| 0.43Mb"
+      - "| 1.36Mb"
+      - "| 3.92Mb"
+      - "| 3.68Mb"
+      - Pool_ |10.09Mb
+      - "|10.79Mb"
+      - Pool_ |11.18Mb
+      - Pool_ |10.57Mb
+      - Pool_ |11.07Mb
+      - "|10.56Mb"
+      - Pool_ |10.96Mb
+      - "| 7.80Mb"
+      - "| 1.35Mb"
+      - "| 1.52Mb"
+      - "| 9.18Mb"
+      - "| 5.62Mb"
+      - "| 0.19Mb"
+      - "| 0.20Mb"
+      - "| 1.22Mb"
+      - "| 2.57Mb"
+      - "| 4.51Mb"
+      - "| 2.25Mb"
+      - "| 0.25Mb"
+      - "| 2.08Mb"
+      - "| 1.02Mb"
+      - "| 2.86Mb"
+      - "| 2.82Mb"
+      - "| 0.14Mb"
+      - "| 7.56Mb"
+      - "| 1.74Mb"
+      - "|56.06Mb"
+      - "| 2.70Mb"
+      - "| 0.98Mb"
+      - "| 2.79Mb"
+      - "| 1.80Mb"
+      - "| 3.43Mb"
+      - "| 1.22Mb 2"
+      - "| 2.42Mb"
+      - "| 2.94Mb"
+      - "| 4.14Mb"
+      - "| 9.22Mb"
+      - "| 2.09Mb"
+      - "| 6.46Mb"
+      - "| 0.16Mb"
+      - "| 1.95Mb"
+      - "| 2.65Mb"
+      - "| 3.30Mb"
+      - "| 4.00Mb"
+      - "|58.85Mb"
+      - "| 1.67Mb"
+      - "| 3.39Mb"
+      - "| 1.89Mb"
+      - "| 1.86Mb"
+      - "| 8.74Mb"
+      - "| 3.56Mb"
+      - "| 1.29Mb"
+      - "| 8.09Mb"
+      - "| 6.82Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 油管晓飞呀分享
+      - FR_72
+      - FR_41
+      - FR_77
+      - FR_61
+      - FR_64
+      - CA_416
+      - FR_76
+      - FR_74
+      - CA_462
+      - CA_163
+      - US_97
+      - CA_337
+      - US_156
+      - CA_120
+      - FR_56
+      - CA_164
+      - FR_78
+      - FR_60
+      - CA_145
+      - FR_67
+      - FR 🇫🇷 Paris (3)
+      - IL 🇮🇱 Haifa
+      - MK 🇲🇰 Skopje
+      - Relay_ | 8.11Mb
+      - Relay_ | 8.34Mb
+      - Relay_ | 9.68Mb
+      - "| 5.72Mb"
+      - CN_279
+      - "| 5.56Mb"
+      - "| 0.58Mb"
+      - "| 2.83Mb"
+      - "| 6.20Mb"
+      - "|18.02Mb"
+      - "| 0.77Mb"
+      - "| 5.64Mb"
+      - "| 3.34Mb"
+      - "| 0.58Mb 2"
+      - "| 2.89Mb"
+      - "|33.80Mb"
+      - "| 0.43Mb"
+      - "| 1.36Mb"
+      - "| 3.92Mb"
+      - "| 3.68Mb"
+      - Pool_ |10.09Mb
+      - "|10.79Mb"
+      - Pool_ |11.18Mb
+      - Pool_ |10.57Mb
+      - Pool_ |11.07Mb
+      - "|10.56Mb"
+      - Pool_ |10.96Mb
+      - "| 7.80Mb"
+      - "| 1.35Mb"
+      - "| 1.52Mb"
+      - "| 9.18Mb"
+      - "| 5.62Mb"
+      - "| 0.19Mb"
+      - "| 0.20Mb"
+      - "| 1.22Mb"
+      - "| 2.57Mb"
+      - "| 4.51Mb"
+      - "| 2.25Mb"
+      - "| 0.25Mb"
+      - "| 2.08Mb"
+      - "| 1.02Mb"
+      - "| 2.86Mb"
+      - "| 2.82Mb"
+      - "| 0.14Mb"
+      - "| 7.56Mb"
+      - "| 1.74Mb"
+      - "|56.06Mb"
+      - "| 2.70Mb"
+      - "| 0.98Mb"
+      - "| 2.79Mb"
+      - "| 1.80Mb"
+      - "| 3.43Mb"
+      - "| 1.22Mb 2"
+      - "| 2.42Mb"
+      - "| 2.94Mb"
+      - "| 4.14Mb"
+      - "| 9.22Mb"
+      - "| 2.09Mb"
+      - "| 6.46Mb"
+      - "| 0.16Mb"
+      - "| 1.95Mb"
+      - "| 2.65Mb"
+      - "| 3.30Mb"
+      - "| 4.00Mb"
+      - "|58.85Mb"
+      - "| 1.67Mb"
+      - "| 3.39Mb"
+      - "| 1.89Mb"
+      - "| 1.86Mb"
+      - "| 8.74Mb"
+      - "| 3.56Mb"
+      - "| 1.29Mb"
+      - "| 8.09Mb"
+      - "| 6.82Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 油管晓飞呀分享
+      - FR_72
+      - FR_41
+      - FR_77
+      - FR_61
+      - FR_64
+      - CA_416
+      - FR_76
+      - FR_74
+      - CA_462
+      - CA_163
+      - US_97
+      - CA_337
+      - US_156
+      - CA_120
+      - FR_56
+      - CA_164
+      - FR_78
+      - FR_60
+      - CA_145
+      - FR_67
+      - FR 🇫🇷 Paris (3)
+      - IL 🇮🇱 Haifa
+      - MK 🇲🇰 Skopje
+      - Relay_ | 8.11Mb
+      - Relay_ | 8.34Mb
+      - Relay_ | 9.68Mb
+      - "| 5.72Mb"
+      - CN_279
+      - "| 5.56Mb"
+      - "| 0.58Mb"
+      - "| 2.83Mb"
+      - "| 6.20Mb"
+      - "|18.02Mb"
+      - "| 0.77Mb"
+      - "| 5.64Mb"
+      - "| 3.34Mb"
+      - "| 0.58Mb 2"
+      - "| 2.89Mb"
+      - "|33.80Mb"
+      - "| 0.43Mb"
+      - "| 1.36Mb"
+      - "| 3.92Mb"
+      - "| 3.68Mb"
+      - Pool_ |10.09Mb
+      - "|10.79Mb"
+      - Pool_ |11.18Mb
+      - Pool_ |10.57Mb
+      - Pool_ |11.07Mb
+      - "|10.56Mb"
+      - Pool_ |10.96Mb
+      - "| 7.80Mb"
+      - "| 1.35Mb"
+      - "| 1.52Mb"
+      - "| 9.18Mb"
+      - "| 5.62Mb"
+      - "| 0.19Mb"
+      - "| 0.20Mb"
+      - "| 1.22Mb"
+      - "| 2.57Mb"
+      - "| 4.51Mb"
+      - "| 2.25Mb"
+      - "| 0.25Mb"
+      - "| 2.08Mb"
+      - "| 1.02Mb"
+      - "| 2.86Mb"
+      - "| 2.82Mb"
+      - "| 0.14Mb"
+      - "| 7.56Mb"
+      - "| 1.74Mb"
+      - "|56.06Mb"
+      - "| 2.70Mb"
+      - "| 0.98Mb"
+      - "| 2.79Mb"
+      - "| 1.80Mb"
+      - "| 3.43Mb"
+      - "| 1.22Mb 2"
+      - "| 2.42Mb"
+      - "| 2.94Mb"
+      - "| 4.14Mb"
+      - "| 9.22Mb"
+      - "| 2.09Mb"
+      - "| 6.46Mb"
+      - "| 0.16Mb"
+      - "| 1.95Mb"
+      - "| 2.65Mb"
+      - "| 3.30Mb"
+      - "| 4.00Mb"
+      - "|58.85Mb"
+      - "| 1.67Mb"
+      - "| 3.39Mb"
+      - "| 1.89Mb"
+      - "| 1.86Mb"
+      - "| 8.74Mb"
+      - "| 3.56Mb"
+      - "| 1.29Mb"
+      - "| 8.09Mb"
+      - "| 6.82Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,7 +852,103 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 油管晓飞呀分享
+      - FR_72
+      - FR_41
+      - FR_77
+      - FR_61
+      - FR_64
+      - CA_416
+      - FR_76
+      - FR_74
+      - CA_462
+      - CA_163
+      - US_97
+      - CA_337
+      - US_156
+      - CA_120
+      - FR_56
+      - CA_164
+      - FR_78
+      - FR_60
+      - CA_145
+      - FR_67
+      - FR 🇫🇷 Paris (3)
+      - IL 🇮🇱 Haifa
+      - MK 🇲🇰 Skopje
+      - Relay_ | 8.11Mb
+      - Relay_ | 8.34Mb
+      - Relay_ | 9.68Mb
+      - "| 5.72Mb"
+      - CN_279
+      - "| 5.56Mb"
+      - "| 0.58Mb"
+      - "| 2.83Mb"
+      - "| 6.20Mb"
+      - "|18.02Mb"
+      - "| 0.77Mb"
+      - "| 5.64Mb"
+      - "| 3.34Mb"
+      - "| 0.58Mb 2"
+      - "| 2.89Mb"
+      - "|33.80Mb"
+      - "| 0.43Mb"
+      - "| 1.36Mb"
+      - "| 3.92Mb"
+      - "| 3.68Mb"
+      - Pool_ |10.09Mb
+      - "|10.79Mb"
+      - Pool_ |11.18Mb
+      - Pool_ |10.57Mb
+      - Pool_ |11.07Mb
+      - "|10.56Mb"
+      - Pool_ |10.96Mb
+      - "| 7.80Mb"
+      - "| 1.35Mb"
+      - "| 1.52Mb"
+      - "| 9.18Mb"
+      - "| 5.62Mb"
+      - "| 0.19Mb"
+      - "| 0.20Mb"
+      - "| 1.22Mb"
+      - "| 2.57Mb"
+      - "| 4.51Mb"
+      - "| 2.25Mb"
+      - "| 0.25Mb"
+      - "| 2.08Mb"
+      - "| 1.02Mb"
+      - "| 2.86Mb"
+      - "| 2.82Mb"
+      - "| 0.14Mb"
+      - "| 7.56Mb"
+      - "| 1.74Mb"
+      - "|56.06Mb"
+      - "| 2.70Mb"
+      - "| 0.98Mb"
+      - "| 2.79Mb"
+      - "| 1.80Mb"
+      - "| 3.43Mb"
+      - "| 1.22Mb 2"
+      - "| 2.42Mb"
+      - "| 2.94Mb"
+      - "| 4.14Mb"
+      - "| 9.22Mb"
+      - "| 2.09Mb"
+      - "| 6.46Mb"
+      - "| 0.16Mb"
+      - "| 1.95Mb"
+      - "| 2.65Mb"
+      - "| 3.30Mb"
+      - "| 4.00Mb"
+      - "|58.85Mb"
+      - "| 1.67Mb"
+      - "| 3.39Mb"
+      - "| 1.89Mb"
+      - "| 1.86Mb"
+      - "| 8.74Mb"
+      - "| 3.56Mb"
+      - "| 1.29Mb"
+      - "| 8.09Mb"
+      - "| 6.82Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
